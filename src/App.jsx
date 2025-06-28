@@ -1,7 +1,7 @@
 import "./App.css";
 
 function App() {
-  // Mock data for UI demonstration
+  
   const user = {
     displayName: "John Doe",
     photoURL: "https://randomuser.me/api/portraits/men/1.jpg",
@@ -43,7 +43,7 @@ function App() {
 
   return (
     <div className="app">
-      {/* Logged in state UI */}
+      
       <>
         <div>
           <span>Logged in as {user.displayName}</span>
