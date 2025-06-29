@@ -1,7 +1,8 @@
 import "./App.css";
 
 function App() {
-  
+ // Sample Data
+
   const user = {
     displayName: "John Doe",
     photoURL: "https://randomuser.me/api/portraits/men/1.jpg",
@@ -43,7 +44,7 @@ function App() {
 
   return (
     <div className="app">
-      
+      {/* Login form */}
       <>
         <div>
           <span>Logged in as {user.displayName}</span>
